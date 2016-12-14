@@ -3,7 +3,7 @@ package Paie_employer;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import GestionExecptionPersonnel.*;
-
+//
 public class Gestion {
 
 	public static void main(String args[]) {
@@ -31,7 +31,7 @@ public class Gestion {
 		} catch (MontantInvalid e) {
 			System.out.println(e.getMessage());
 		} catch (InputMismatchException ex) {
-			System.out.println("charctère a la palce de double");
+			System.out.println("charctÃ¨re a la palce de double");
 		}
 	}
 }
